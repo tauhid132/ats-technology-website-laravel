@@ -4,11 +4,10 @@
 <header class="navbar-light header-sticky">
     <nav class="navbar navbar-expand-xl">
         <div class="container">
-            <a class="navbar-brand" href="index-2.html">
+            <a class="navbar-brand" href="{{ route('home') }}">
                 <img class="light-mode-item navbar-brand-item" src="images/logo.png" alt="logo">
-                <img class="dark-mode-item navbar-brand-item" src="assets/images/logo-light.svg" alt="logo">
             </a>
-            <button class="navbar-toggler ms-auto ms-sm-0 p-0 p-sm-2 float-start" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler ms-auto ms-sm-0 p-2 p-sm-2 float-start" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-animation">
                     <span></span>
                     <span></span>
@@ -19,15 +18,14 @@
             
             <div class="navbar-collapse collapse" id="navbarCollapse">
                 <ul class="navbar-nav navbar-nav-scroll mx-auto">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link " href="#" >Home</a>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link {{ Request::is('/') ? 'active':''  }}" href="{{ route('home') }}" >Home</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link " href="#" >Home Internet</a>
+                        <a class="nav-link {{ Request::is('home-internet') ? 'active':''  }}" href="{{ route('viewHomeInternet') }}" >Home Internet</a>
                     </li>
-                    
                     <li class="nav-item dropdown">
-                        <a class="nav-link " href="#" >Corporate Internet</a>
+                        <a class="nav-link {{ Request::is('corporate-internet') ? 'active':''  }}" href="{{ route('viewCorporateInternet') }}" >Corporate Internet</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link " href="#" >Coverage</a>
