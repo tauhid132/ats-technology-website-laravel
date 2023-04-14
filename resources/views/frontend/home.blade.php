@@ -1,5 +1,5 @@
 @extends('master')
-@section('title','ATS Technology')
+@section('title','ATS Technology | Best Internet Service Provider')
 
 @section('main-body')
 
@@ -25,12 +25,12 @@
         <div class="container">
             <div class="row mb-4">
                 <div class="col-12 text-center">
-                    <h3 class="mb-0">Our Best Packages</h3>
+                    <h3 class="mb-0">Our Popular Packages</h3>
                 </div>
             </div>
             <div class="row g-4 justify-content-center mt-5">
                 <div class="col-md-6 col-lg-3">
-                    <div class="card border border-primary">
+                    <div class="card shadow">
                         <div class="card-header d-flex justify-content-between align-items-center border-bottom p-4">
                             <div>
                                 <h6 class="mb-0 text-primary">Wind</h6>
@@ -41,7 +41,7 @@
                         </div>
                         <div class="card-body p-4">
                             <ul class="list-unstyled mb-0">
-                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Upto 100 Mbps IX</li>
+                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Upto 100 Mbps IX </li>
                                 <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>4K Streaming</li>
                                 <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Private IP</li>
                                 <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>24/7 dedicated Support</li>
@@ -59,7 +59,7 @@
                 </div>
                 
                 <div class="col-md-6 col-lg-3">
-                    <div class="card border border-primary">
+                    <div class="card shadow">
                         <div class="card-header d-flex justify-content-between align-items-center border-bottom p-4">
                             <div>
                                 <h6 class="mb-0 text-primary">Lightning</h6>
@@ -73,8 +73,8 @@
                                 <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Upto 100 Mbps IX</li>
                                 <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>4K Streaming</li>
                                 <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Private IP</li>
-                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>24/7 dedicated Support</li>
-                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Optical Fiber connection</li>
+                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>24/7 Support</li>
+                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Optical Fiber Connection</li>
                                 <li style="margin-left:30px"><div class="">
                                     <span class="h4 plan-price mb-0" data-monthly-price="$59" data-annual-price="$840">800</span>
                                     <span class="h6 fw-light mb-0">Tk/Month</span>
@@ -88,10 +88,10 @@
                 </div>
                 
                 <div class="col-md-6 col-lg-3">
-                    <div class="card border border-primary">
+                    <div class="card shadow">
                         <div class="card-header d-flex justify-content-between align-items-center border-bottom p-4">
                             <div>
-                                <h6 class="mb-0 text-primary">Wind</h6>
+                                <h6 class="mb-0 text-primary">Thunder</h6>
                                 <div class="hstack gap-2">
                                     <span class="h3 plan-price mb-0" data-monthly-price="$20" data-annual-price="$570">40 Mbps</span>
                                 </div>
@@ -101,9 +101,9 @@
                             <ul class="list-unstyled mb-0">
                                 <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Upto 100 Mbps IX</li>
                                 <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>4K Streaming</li>
-                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Private IP</li>
-                                <li class="mb-2"><i class="bi bi-x-circle text-danger me-2"></i>24/7 dedicated Support</li>
-                                <li class="mb-2"><i class="bi bi-x-circle text-danger me-2"></i>Optical Fiber connection</li>
+                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Public/Real IP</li>
+                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>24/7 Support</li>
+                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Optical Fiber Connection</li>
                                 <li style="margin-left:30px"><div class="">
                                     <span class="h4 plan-price mb-0" data-monthly-price="$59" data-annual-price="$840">1000</span>
                                     <span class="h6 fw-light mb-0">Tk/Month</span>
@@ -117,10 +117,10 @@
                 </div>
                 
                 <div class="col-md-6 col-lg-3">
-                    <div class="card border border-primary">
+                    <div class="card shadow">
                         <div class="card-header d-flex justify-content-between align-items-center border-bottom p-4">
                             <div>
-                                <h6 class="mb-0 text-primary">Wind</h6>
+                                <h6 class="mb-0 text-primary">Storm</h6>
                                 <div class="hstack gap-2">
                                     <span class="h3 plan-price mb-0" data-monthly-price="$20" data-annual-price="$570">60 Mbps</span>
                                 </div>
@@ -130,9 +130,9 @@
                             <ul class="list-unstyled mb-0">
                                 <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Upto 100 Mbps IX</li>
                                 <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>4K Streaming</li>
-                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Private IP</li>
-                                <li class="mb-2"><i class="bi bi-x-circle text-danger me-2"></i>24/7 dedicated Support</li>
-                                <li class="mb-2"><i class="bi bi-x-circle text-danger me-2"></i>Optical Fiber connection</li>
+                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Public/Real IP</li>
+                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>24/7 Support</li>
+                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Optical Fiber Connection</li>
                                 <li style="margin-left:30px"><div class="">
                                     <span class="h4 plan-price mb-0" data-monthly-price="$59" data-annual-price="$840">1500</span>
                                     <span class="h6 fw-light mb-0">Tk/Month</span>
@@ -150,48 +150,53 @@
     
     <section>
         <div class="container">
-            <div class="row mb-4">
-                <div class="col-12">
-                    <h4 class="mb-0">Special Offers</h4>
+            <!-- Title -->
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h2 class="mb-0">Special Offers</h2>
                 </div>
             </div>
-            
-            <div class="row g-4 text-center">
-                <div class="col-sm-6 col-lg-4 col-xl-3">
-                    <div class="card bg-success bg-opacity-10 h-100 p-4">
-                        <h5> Eid Offer</h5>
-                        <div class="card-body mt-2 p-0">
-                            <span class="mb-1">Flat</span>
-                            <h4 class="mb-1">100% OFF</h4>
-                            <h6 class="fw-normal">Installation Charge</h6>
-                            <div class="d-flex justify-content-between align-items-center mt-4">
-                                <div class="bg-primary bg-opacity-10 border border-2 border-primary border-dashed rounded-2 px-3 py-2">
-                                    <h5 class="fw-normal user-select-all mb-0">EID2023</h5>
-                                </div>
-                                <a href="#" class="btn btn-lg btn-white btn-round mb-0"><i class="bi bi-arrow-right"></i></a>
+    
+            <!-- Slider START -->
+            <div class="tiny-slider arrow-round arrow-blur arrow-hover">
+                <div class="tiny-slider-inner" data-autoplay="false" data-arrow="true" data-edge="2" data-dots="false" data-items-xl="3" data-items-lg="2" data-items-sm="1">
+    
+                    <!-- Slider item -->
+                    <div class="h-100">
+                        <div class="card bg-primary bg-opacity-10 border border-2 border-primary border-dashed border-opacity-75 rounded-3 h-100">
+                            <div class="card-body">
+                                <!-- Title -->
+                                <h5 class="text-primary">Get 100% Off on Installation Charge!</h5>
+                                <div class="d-flex justify-content-between flex-wrap align-items-center">
+                                    <div class="bg-mode rounded-2 px-3 py-2 d-inline-block">
+                                        <h6 class="fw-normal user-select-all mb-0">EID2023</h6>
+                                    </div>
+                                    <span class="h6 fw-light small mb-0">Valid till: 30 April,2023</span>
+                                </div>	
                             </div>
                         </div>
                     </div>
-                </div>
-                
-                <div class="col-sm-6 col-lg-4 col-xl-3">
-                    <div class="card bg-danger bg-opacity-10 h-100 p-4">
-                        <h5> Refer and Win!</h5>
-                        <div class="card-body mt-2 p-0">
-                            <span class="mb-1">Win</span>
-                            <h4 class="mb-1">500 Tk</h4>
-                            <h6 class="fw-normal">On Every Successful Refferal</h6>
-                            <div class="d-flex justify-content-between align-items-center mt-4">
-                                <div class="bg-primary bg-opacity-10 border border-2 border-primary border-dashed rounded-2 px-3 py-2">
-                                    <h5 class="fw-normal user-select-all mb-0">Avail Now</h5>
-                                </div>
-                                <a href="#" class="btn btn-lg btn-white btn-round mb-0"><i class="bi bi-arrow-right"></i></a>
+    
+                   
+                    <!-- Slider item -->
+                    <div class="h-100">
+                        <div class="card bg-info bg-opacity-10 border border-2 border-info border-dashed border-opacity-75 rounded-3 h-100">
+                            <div class="card-body">
+                                <!-- Title -->
+                                <h5 class="text-info">Refer Your Friend & Win 500Tk</h5>
+                                <div class="d-flex justify-content-between flex-wrap align-items-center">
+                                    <div class="bg-mode rounded-2 px-3 py-2 d-inline-block">
+                                        <h6 class="fw-normal user-select-all mb-0">Refer500</h6>
+                                    </div>Lifetime</span>
+                                </div>	
                             </div>
                         </div>
                     </div>
+    
+                  
                 </div>
-                
-            </div>
+            </div>	
+            <!-- Slider END -->
         </div>
     </section>
     <section class="g-4">

@@ -19,3 +19,4 @@ use Illuminate\Support\Facades\Artisan;
 Route::get('',[App\Http\Controllers\PageController::class, 'viewHome'])->name('home');
 Route::get('/home-internet',[App\Http\Controllers\PageController::class, 'viewHomeInternet'])->name('viewHomeInternet');
 Route::get('/corporate-internet',[App\Http\Controllers\PageController::class, 'viewCorporateInternet'])->name('viewCorporateInternet');
+Route::get('/online-registration',[App\Http\Controllers\PageController::class, 'viewOnlineReg'])->name('viewOnlineReg');

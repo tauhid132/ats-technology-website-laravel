@@ -25,7 +25,7 @@
           <div class="col-6 col-md-4">
             <h5 class="text-white mb-2 mb-md-4">Company</h5>
             <ul class="nav flex-column text-primary-hover">
-              <li class="nav-item"><a class="nav-link text-muted" href="#">BTRC Approved Tarrif</a></li>
+              <li class="nav-item"><a class="nav-link text-muted" href="{{ asset('btrc-tarrif-chart.pdf') }}">BTRC Approved Tarrif</a></li>
               <li class="nav-item"><a class="nav-link text-muted" href="#">Privacy & Policy</a></li>
               <li class="nav-item"><a class="nav-link text-muted" href="#">Terms & Conditions</a></li>
               <li class="nav-item"><a class="nav-link text-muted" href="#">Refund Policy</a></li>
