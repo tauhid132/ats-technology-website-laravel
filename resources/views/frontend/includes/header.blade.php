@@ -32,13 +32,13 @@
                     </li>
                     
                     <li class="nav-item dropdown">
-                        <a class="nav-link " href="#" >Pay Bill</a>
+                        <a class="nav-link  {{ Request::is('pay-bill') ? 'active':''  }}" href="{{ route('viewPayBill') }}" >Pay Bill</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link " href="#" >VAS</a>
+                        <a class="nav-link " href="https://vas.atsbd.net" >VAS</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link " href="#" >Contact Us</a>
+                        <a class="nav-link {{ Request::is('contact-us') ? 'active':''  }}" href="{{ route('viewContact') }}" >Contact Us</a>
                     </li>
                 </ul>
             </div>
