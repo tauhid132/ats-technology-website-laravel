@@ -20,5 +20,5 @@ Route::get('',[App\Http\Controllers\PageController::class, 'viewHome'])->name('h
 Route::get('/home-internet',[App\Http\Controllers\PageController::class, 'viewHomeInternet'])->name('viewHomeInternet');
 Route::get('/corporate-internet',[App\Http\Controllers\PageController::class, 'viewCorporateInternet'])->name('viewCorporateInternet');
 Route::get('/pay-bill',[App\Http\Controllers\PageController::class, 'viewPayBill'])->name('viewPayBill');
-Route::get('/contact-use',[App\Http\Controllers\PageController::class, 'viewContact'])->name('viewContact');
+Route::get('/contact-us',[App\Http\Controllers\PageController::class, 'viewContact'])->name('viewContact');
 Route::get('/online-registration',[App\Http\Controllers\PageController::class, 'viewOnlineReg'])->name('viewOnlineReg');

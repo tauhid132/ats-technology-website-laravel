@@ -24,18 +24,20 @@
                                 </div>
                                 <div class="col-6">
                                     <label class="form-label text-black">Mobile Number</label>
-                                    <input type="text" class="form-control" placeholder="Enter Mobile Number">
+                                    <input type="text" class="form-control" minlength="11" maxlength="11" placeholder="Enter Mobile Number">
                                 </div>
                                 <div class="col-md-6">
 									<label class="form-label text-black">Chosen Package</label>
-									<select class="form-select js-choice" data-search-enabled="true">
-										<option value="">Select item</option>
-										<option>Sedan</option>
-										<option>Micro</option>
-										<option>CUV</option>
-										<option>SUV</option>
-										<option>Pick up</option>
-										<option>Coupe</option>
+									<select class="form-select">
+										<option value="">Select Package</option>
+										<option value="10 Mbps">10 Mbps - 500 BDT</option>
+										<option value="20 Mbps">20 Mbps - 800 BDT</option>
+										<option value="40 Mbps">40 Mbps - 1000 BDT</option>
+										<option value="50 Mbps">50 Mbps - 1250 BDT</option>
+										<option value="60 Mbps">60 Mbps - 1500 BDT</option>
+										<option value="80 Mbps">80 Mbps - 2000 BDT</option>
+                                        <option value="90 Mbps">90 Mbps - 3000 BDT</option>
+                                        <option value="100 Mbps">100 Mbps - 4000 BDT</option>
 									</select>
 								</div>
                                 <div class="col-12">
