@@ -21892,3 +21892,10 @@ html[dir=rtl] .choices__input {
 
 /*User CSS*/
 /*# sourceMappingURL=style.css.map */
+
+.customizer-setting {
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  z-index: 1000
+}

@@ -224,6 +224,6 @@
             </div>
         </div>
     </section>
-    
+    <div class="customizer-setting "><div class="btn-success rounded-5 shadow-lg btn btn-icon btn-lg p-3"><i style="font-size: 28px" class="fa fa-comment"></i></div></div>
 </main>
 @endsection

@@ -1,5 +1,6 @@
+
 <div class="alert alert-warning py-2 bg-primary border-0 rounded-0 alert-dismissible fade show text-center overflow-hidden" role="alert">
-    <span style="margin-right:30px" class="text-white"><i class="fa fa-envelope text-white"></i> info@atsbd.net</span> <span class="text-white"><i class="fa fa-phone text-white"></i> 09614 23 23 23</span>
+    <span style="margin-right:30px" class="text-white text-end"><i class="fa fa-envelope text-white"></i> info@atsbd.net</span> <span class="text-white"><i class="fa fa-phone text-white"></i> 09614 23 23 23</span>
 </div>
 <header class="navbar-light header-sticky">
     <nav class="navbar navbar-expand-xl">
