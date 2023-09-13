@@ -4,10 +4,10 @@
       <div class="col-lg-3">
         <h5 class="text-white mb-2">Follow us on</h5>
         <ul class="list-inline mb-0 mt-3">
-          <li class="list-inline-item"> <a class="btn btn-sm px-2 bg-facebook mb-0" href="#"><i class="fab fa-fw fa-facebook-f"></i></a> </li>
+          <li class="list-inline-item"> <a class="btn btn-sm px-2 bg-facebook mb-0" href="https://facebook.com/atstechnologybd"><i class="fab fa-fw fa-facebook-f"></i></a> </li>
           <li class="list-inline-item"> <a class="btn btn-sm shadow px-2 bg-instagram mb-0" href="#"><i class="fab fa-fw fa-instagram"></i></a> </li>
-          <li class="list-inline-item"> <a class="btn btn-sm shadow px-2 bg-twitter mb-0" href="#"><i class="fab fa-fw fa-twitter"></i></a> </li>
-          <li class="list-inline-item"> <a class="btn btn-sm shadow px-2 bg-linkedin mb-0" href="#"><i class="fab fa-fw fa-linkedin-in"></i></a> </li>
+          <li class="list-inline-item"> <a class="btn btn-sm shadow px-2 bg-youtube mb-0" href="#"><i class="fab fa-fw fa-youtube"></i></a> </li>
+          <li class="list-inline-item"> <a class="btn btn-sm shadow px-2 bg-linkedin mb-0" href="https://www.linkedin.com/company/ats-technologybd"><i class="fab fa-fw fa-linkedin-in"></i></a> </li>
         </ul>	
       </div>
       <div class="col-lg-8 ms-auto">
@@ -18,7 +18,7 @@
               <li class="nav-item"><a class="nav-link text-muted" href="#">Home Internet</a></li>
               <li class="nav-item"><a class="nav-link text-muted" href="#">Corporate Internet</a></li>
               <li class="nav-item"><a class="nav-link text-muted" href="#">Pay Bill</a></li>
-              <li class="nav-item"><a class="nav-link text-muted" href="#">VAS</a></li>
+              <li class="nav-item"><a class="nav-link text-muted" href="https://vas.atsbd.net">VAS</a></li>
               <li class="nav-item"><a class="nav-link text-muted" href="#">Contact Us</a></li>
             </ul>
           </div>
@@ -52,7 +52,7 @@
     <div class="row">
       <div class="container">
         <div class="d-lg-flex justify-content-center align-items-center py-3 text-center text-lg-start">
-          <div class="text-muted text-primary-hover"> Copyright ©{{ date('Y') }} ATS Technology</div>
+          <div class="text-muted text-primary-hover"> Copyright © {{ date('Y') }} ATS Technology</div>
         </div>
       </div>
     </div>

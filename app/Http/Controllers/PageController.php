@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Mail\NewConnectionMail;
+use Illuminate\Support\Facades\Mail;
 
 class PageController extends Controller
 {
@@ -23,5 +25,19 @@ class PageController extends Controller
     }
     public function viewOnlineReg(){
         return view('frontend.online-registration');
+    }
+    // public function mail(){
+    //     Mail::to('tauhid132@gmail.com')->send(new NewConnectionMail());
+    // }
+    public function onlineReg(Request $request){
+        $details = [
+            'name' => $request->name,
+            'email' => $request->email,
+            'mobile' => $request->mobile,
+            'package' => $request->package,
+            'address' => $request->address,
+        ];
+        Mail::to('atstechnologybd@gmail.com')->send(new NewConnectionMail($details));
+        return back()->with('success','Registered Successfully! We will contact you as soon as possible.');
     }
 }

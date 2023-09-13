@@ -7,7 +7,7 @@
     <section class="pt-0">
         <div class="container position-relative">
             <div class="tiny-slider arrow-round arrow-hover arrow-dark">
-                <div class="tiny-slider-inner rounded-2" data-autoplay="true" data-arrow="true" data-dots="true" data-items="1" >
+                <div class="tiny-slider-inner rounded-2 shadow" data-autoplay="true" data-arrow="true" data-dots="true" data-items="1" >
                     <div >
                         <img src="images/bg2.png" class="rounded-3" alt="">
                     </div>
@@ -21,11 +21,64 @@
             </div>
         </div>
     </section>
+    <section class="pt-0 pt-lg-5">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-12 text-center">
+                    <h2 class="mb-0">Our <span class="text-primary">Services</span></h2>
+                </div>
+            </div>
+            <div class="row g-4 justify-content-center mt-5">
+                <div class="col-sm-6 col-lg-4 mb-4">
+                    <center>
+                    <img src="{{ asset('images/fast.png') }}" style="height: 100px">
+                    <h5 class="mt-2">Dedicated Bandwidth</h5>
+                    <p class="mb-0">Full Duplex Dedicated Bandwidth that ensures constant speed all time.</p>
+                    </center>
+                </div>
+                <div class="col-sm-6 col-lg-4 mb-4">
+                    <center>
+                    <img src="{{ asset('images/optical-fiber.png') }}" style="height: 100px">
+                    <h5 class="mt-2">Optical Fiber Connection</h5>
+                    <p class="mb-0">We Provide Latest FTTH Connectivity which ensures upto 99.99% Uptime.</p>
+                </center>
+                </div>
+                <div class="col-sm-6 col-lg-4 mb-4">
+                    <center>
+                    <img src="{{ asset('images/support.png') }}" style="height: 100px">
+                    <h5 class="mt-2">24/7 Support</h5>
+                    <p class="mb-0">Our energetic support team always ready to serve you 24/7.</p>
+                </center>
+                </div>
+                <div class="col-sm-6 col-lg-4 mb-4">
+                    <center>
+                    <img src="{{ asset('images/steam.png') }}" style="height: 100px">
+                    <h5 class="mt-2">Gaming Cache Speed</h5>
+                    <p class="mb-0">Upto 100 Mbps Download Speed From Steam, Origin and more than 24 Gaming Client. </p>
+                </center>
+                </div>
+                <div class="col-sm-6 col-lg-4 mb-4">
+                    <center>
+                    <img src="{{ asset('images/ip.png') }}" style="height: 100px">
+                    <h5 class="mt-2">Public IP</h5>
+                    <p class="mb-0">Our System is both IPv4 & IPv6 Stack ready. Now browsing will be more secure and faster.</p>
+                </center>
+                </div>
+                <div class="col-sm-6 col-lg-4 mb-4">
+                    <center>
+                    <img src="{{ asset('images/latency.png') }}" style="height: 100px">
+                    <h5 class="mt-2">Lowest Latency</h5>
+                    <p class="mb-0">Play Online Games in Lowest Latency. Also browse websites more faster with our optimized Routing.</p>
+                </center>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="pt-0 pt-md-5">
         <div class="container">
             <div class="row mb-4">
                 <div class="col-12 text-center">
-                    <h3 class="mb-0">Our Popular Packages</h3>
+                    <h2 class="mb-0">Our Popular Packages</h2>
                 </div>
             </div>
             <div class="row g-4 justify-content-center mt-5">
@@ -53,7 +106,7 @@
                             </ul>
                         </div>
                         <div class="card-footer p-4 pt-0">
-                            <a href="#" class="btn btn-success w-100 mb-0">Get Started</a>
+                            <a href="{{ route('viewOnlineReg') }}" class="btn btn-success w-100 mb-0">Get Now!</a>
                         </div>
                     </div>
                 </div>
@@ -82,7 +135,7 @@
                             </ul>
                         </div>
                         <div class="card-footer p-4 pt-0">
-                            <a href="#" class="btn btn-success w-100 mb-0">Get Started</a>
+                            <a href="{{ route('viewOnlineReg') }}" class="btn btn-success w-100 mb-0">Get Now!</a>
                         </div>
                     </div>
                 </div>
@@ -111,7 +164,7 @@
                             </ul>
                         </div>
                         <div class="card-footer p-4 pt-0">
-                            <a href="#" class="btn btn-success w-100 mb-0">Get Started</a>
+                            <a href="{{ route('viewOnlineReg') }}" class="btn btn-success w-100 mb-0">Get Now!</a>
                         </div>
                     </div>
                 </div>
@@ -140,7 +193,7 @@
                             </ul>
                         </div>
                         <div class="card-footer p-4 pt-0">
-                            <a href="#" class="btn btn-success w-100 mb-0">Get Now!</a>
+                            <a href="{{ route('viewOnlineReg') }}" class="btn btn-success w-100 mb-0">Get Now!</a>
                         </div>
                     </div>
                 </div>
@@ -169,9 +222,9 @@
                                 <h5 class="text-primary">Get 100% Off on Installation Charge!</h5>
                                 <div class="d-flex justify-content-between flex-wrap align-items-center">
                                     <div class="bg-mode rounded-2 px-3 py-2 d-inline-block">
-                                        <h6 class="fw-normal user-select-all mb-0">EID2023</h6>
+                                        <h6 class="fw-normal user-select-all mb-0">NewConnection</h6>
                                     </div>
-                                    <span class="h6 fw-light small mb-0">Valid till: 30 April,2023</span>
+                                    <span class="h6 fw-light small mb-0">Valid till: 30 Sept,2023</span>
                                 </div>	
                             </div>
                         </div>
@@ -215,7 +268,7 @@
                             <h3>It's time to Get Connected</h3>
                             <img src="assets/images/element/04.svg" class="h-40px ms-3" alt="">
                         </div>
-                        <p class="mb-3 mb-lg-0">He moonlights difficult engrossed it, sportsmen. Interested has all Devonshire difficulty gay assistance joy.</p>
+                        <p class="mb-3 mb-lg-0">Enjoy Fastest Broadband Internet Service in the town!</p>
                     </div>
                     <div class="col-lg-4 text-lg-end">
                         <a href="flight-list.html" class="btn btn-lg btn-dark mb-0">Register Now!</a>

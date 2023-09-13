@@ -23,10 +23,7 @@
                         <a class="nav-link {{ Request::is('/') ? 'active':''  }}" href="{{ route('home') }}" >Home</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link {{ Request::is('home-internet') ? 'active':''  }}" href="{{ route('viewHomeInternet') }}" >Home Internet</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link {{ Request::is('corporate-internet') ? 'active':''  }}" href="{{ route('viewCorporateInternet') }}" >Corporate Internet</a>
+                        <a class="nav-link {{ Request::is('home-internet') ? 'active':''  }}" href="{{ route('viewHomeInternet') }}" >Packages</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link " href="#" >Coverage</a>
@@ -35,15 +32,15 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link  {{ Request::is('pay-bill') ? 'active':''  }}" href="{{ route('viewPayBill') }}" >Pay Bill</a>
                     </li>
-                    <li class="nav-item dropdown">
+                    {{-- <li class="nav-item dropdown">
                         <a class="nav-link " href="https://vas.atsbd.net" >VAS</a>
-                    </li>
+                    </li> --}}
                     <li class="nav-item dropdown">
                         <a class="nav-link {{ Request::is('contact-us') ? 'active':''  }}" href="{{ route('viewContact') }}" >Contact Us</a>
                     </li>
                 </ul>
             </div>
-            <a href="#" class="btn btn-success ml-2">Selfcare</a>
+            <a href="#" class="btn btn-success ml-2"><i class="fa fa-user"></i> Selfcare</a>
         </div>
     </nav>
 </header>

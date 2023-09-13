@@ -21,4 +21,6 @@ Route::get('/home-internet',[App\Http\Controllers\PageController::class, 'viewHo
 Route::get('/corporate-internet',[App\Http\Controllers\PageController::class, 'viewCorporateInternet'])->name('viewCorporateInternet');
 Route::get('/pay-bill',[App\Http\Controllers\PageController::class, 'viewPayBill'])->name('viewPayBill');
 Route::get('/contact-us',[App\Http\Controllers\PageController::class, 'viewContact'])->name('viewContact');
-Route::get('/online-registration',[App\Http\Controllers\PageController::class, 'viewOnlineReg'])->name('viewOnlineReg');
+Route::get('/get-new-connection',[App\Http\Controllers\PageController::class, 'viewOnlineReg'])->name('viewOnlineReg');
+Route::post('/get-new-connection',[App\Http\Controllers\PageController::class, 'onlineReg']);
+Route::get('/mail',[App\Http\Controllers\PageController::class, 'mail'])->name('mail');
