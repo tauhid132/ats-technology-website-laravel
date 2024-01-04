@@ -25,51 +25,51 @@
         <div class="container">
             <div class="row mb-4">
                 <div class="col-12 text-center">
-                    <h2 class="mb-0">Our <span class="text-primary">Services</span></h2>
+                    <h3 class="mb-0">Why <span class="text-primary">ATS Technology?</span></h3>
                 </div>
             </div>
             <div class="row g-4 justify-content-center mt-5">
                 <div class="col-sm-6 col-lg-4 mb-4">
                     <center>
-                    <img src="{{ asset('images/fast.png') }}" style="height: 100px">
-                    <h5 class="mt-2">Dedicated Bandwidth</h5>
-                    <p class="mb-0">Full Duplex Dedicated Bandwidth that ensures constant speed all time.</p>
+                        <img src="{{ asset('images/fast.png') }}" style="height: 100px">
+                        <h5 class="mt-2">Dedicated Bandwidth</h5>
+                        <p class="mb-0">Full Duplex Dedicated Bandwidth that ensures constant speed all time.</p>
                     </center>
                 </div>
                 <div class="col-sm-6 col-lg-4 mb-4">
                     <center>
-                    <img src="{{ asset('images/optical-fiber.png') }}" style="height: 100px">
-                    <h5 class="mt-2">Optical Fiber Connection</h5>
-                    <p class="mb-0">We Provide Latest FTTH Connectivity which ensures upto 99.99% Uptime.</p>
-                </center>
+                        <img src="{{ asset('images/optical-fiber.png') }}" style="height: 100px">
+                        <h5 class="mt-2">Optical Fiber Connection</h5>
+                        <p class="mb-0">We Provide Latest FTTH Connectivity which ensures upto 99.99% Uptime.</p>
+                    </center>
                 </div>
                 <div class="col-sm-6 col-lg-4 mb-4">
                     <center>
-                    <img src="{{ asset('images/support.png') }}" style="height: 100px">
-                    <h5 class="mt-2">24/7 Support</h5>
-                    <p class="mb-0">Our energetic support team always ready to serve you 24/7.</p>
-                </center>
+                        <img src="{{ asset('images/support.png') }}" style="height: 100px">
+                        <h5 class="mt-2">24/7 Support</h5>
+                        <p class="mb-0">Our energetic support team always ready to serve you 24/7.</p>
+                    </center>
                 </div>
                 <div class="col-sm-6 col-lg-4 mb-4">
                     <center>
-                    <img src="{{ asset('images/steam.png') }}" style="height: 100px">
-                    <h5 class="mt-2">Gaming Cache Speed</h5>
-                    <p class="mb-0">Upto 100 Mbps Download Speed From Steam, Origin and more than 24 Gaming Client. </p>
-                </center>
+                        <img src="{{ asset('images/steam.png') }}" style="height: 100px">
+                        <h5 class="mt-2">Gaming Cache Speed</h5>
+                        <p class="mb-0">Upto 100 Mbps Download Speed From Steam, Origin and more than 24 Gaming Client. </p>
+                    </center>
                 </div>
                 <div class="col-sm-6 col-lg-4 mb-4">
                     <center>
-                    <img src="{{ asset('images/ip.png') }}" style="height: 100px">
-                    <h5 class="mt-2">Public IP</h5>
-                    <p class="mb-0">Our System is both IPv4 & IPv6 Stack ready. Now browsing will be more secure and faster.</p>
-                </center>
+                        <img src="{{ asset('images/ip.png') }}" style="height: 100px">
+                        <h5 class="mt-2">Public IP</h5>
+                        <p class="mb-0">Our System is both IPv4 & IPv6 Stack ready. Now browsing will be more secure and faster.</p>
+                    </center>
                 </div>
                 <div class="col-sm-6 col-lg-4 mb-4">
                     <center>
-                    <img src="{{ asset('images/latency.png') }}" style="height: 100px">
-                    <h5 class="mt-2">Lowest Latency</h5>
-                    <p class="mb-0">Play Online Games in Lowest Latency. Also browse websites more faster with our optimized Routing.</p>
-                </center>
+                        <img src="{{ asset('images/latency.png') }}" style="height: 100px">
+                        <h5 class="mt-2">Lowest Latency</h5>
+                        <p class="mb-0">Play Online Games in Lowest Latency. Also browse websites more faster with our optimized Routing.</p>
+                    </center>
                 </div>
             </div>
         </div>
@@ -78,7 +78,7 @@
         <div class="container">
             <div class="row mb-4">
                 <div class="col-12 text-center">
-                    <h2 class="mb-0">Our Popular Packages</h2>
+                    <h3 class="mb-0">Our <span class="text-success"><i class="fa fa-home"></i> Home </span>Packages</h3>
                 </div>
             </div>
             <div class="row g-4 justify-content-center mt-5">
@@ -97,16 +97,19 @@
                                 <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Upto 100 Mbps IX </li>
                                 <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>4K Streaming</li>
                                 <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Private IP</li>
-                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>24/7 dedicated Support</li>
-                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Optical Fiber connection</li>
-                                <li style="margin-left:30px"><div class="">
-                                    <span class="h4 plan-price mb-0" data-monthly-price="$59" data-annual-price="$840">500</span>
-                                    <span class="h6 fw-light mb-0">Tk/Month</span>
-                                </div></li>
+                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>24/7 Support</li>
+                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Optical Fiber Connection</li>
+                                <hr>
+                                <li style="margin-left:30px">
+                                    <div class="">
+                                        <span class="h4 plan-price mb-0" data-monthly-price="$59" data-annual-price="$840">500</span>
+                                        <span class="h6 fw-light mb-0">Tk/Month</span>
+                                    </div>
+                                </li>
                             </ul>
                         </div>
                         <div class="card-footer p-4 pt-0">
-                            <a href="{{ route('viewOnlineReg') }}" class="btn btn-success w-100 mb-0">Get Now!</a>
+                            <a href="{{ route('viewOnlineReg') }}" class="btn btn-primary w-100 mb-0">Get Now!</a>
                         </div>
                     </div>
                 </div>
@@ -128,6 +131,7 @@
                                 <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Private IP</li>
                                 <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>24/7 Support</li>
                                 <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Optical Fiber Connection</li>
+                                <hr>
                                 <li style="margin-left:30px"><div class="">
                                     <span class="h4 plan-price mb-0" data-monthly-price="$59" data-annual-price="$840">800</span>
                                     <span class="h6 fw-light mb-0">Tk/Month</span>
@@ -135,7 +139,7 @@
                             </ul>
                         </div>
                         <div class="card-footer p-4 pt-0">
-                            <a href="{{ route('viewOnlineReg') }}" class="btn btn-success w-100 mb-0">Get Now!</a>
+                            <a href="{{ route('viewOnlineReg') }}" class="btn btn-primary w-100 mb-0">Get Now!</a>
                         </div>
                     </div>
                 </div>
@@ -157,6 +161,7 @@
                                 <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Public/Real IP</li>
                                 <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>24/7 Support</li>
                                 <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Optical Fiber Connection</li>
+                                <hr>
                                 <li style="margin-left:30px"><div class="">
                                     <span class="h4 plan-price mb-0" data-monthly-price="$59" data-annual-price="$840">1000</span>
                                     <span class="h6 fw-light mb-0">Tk/Month</span>
@@ -164,7 +169,7 @@
                             </ul>
                         </div>
                         <div class="card-footer p-4 pt-0">
-                            <a href="{{ route('viewOnlineReg') }}" class="btn btn-success w-100 mb-0">Get Now!</a>
+                            <a href="{{ route('viewOnlineReg') }}" class="btn btn-primary w-100 mb-0">Get Now!</a>
                         </div>
                     </div>
                 </div>
@@ -186,6 +191,7 @@
                                 <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Public/Real IP</li>
                                 <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>24/7 Support</li>
                                 <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Optical Fiber Connection</li>
+                                <hr>
                                 <li style="margin-left:30px"><div class="">
                                     <span class="h4 plan-price mb-0" data-monthly-price="$59" data-annual-price="$840">1500</span>
                                     <span class="h6 fw-light mb-0">Tk/Month</span>
@@ -193,11 +199,15 @@
                             </ul>
                         </div>
                         <div class="card-footer p-4 pt-0">
-                            <a href="{{ route('viewOnlineReg') }}" class="btn btn-success w-100 mb-0">Get Now!</a>
+                            <a href="{{ route('viewOnlineReg') }}" class="btn btn-primary w-100 mb-0">Get Now!</a>
                         </div>
                     </div>
                 </div>
             </div>
+            
+        </div>
+        <div class="text-center mt-5">
+            <a href="{{ route('viewHomeInternet') }}" class="btn btn-success-soft btn-sm mb-0 rounded-5"><i class="fa fa-eye me-1"></i>View More Packages</a>
         </div>
     </section>
     
@@ -206,14 +216,14 @@
             <!-- Title -->
             <div class="row mb-5">
                 <div class="col-12 text-center">
-                    <h2 class="mb-0">Special Offers</h2>
+                    <h3 class="mb-0">Special Offers</h3>
                 </div>
             </div>
-    
+            
             <!-- Slider START -->
             <div class="tiny-slider arrow-round arrow-blur arrow-hover">
                 <div class="tiny-slider-inner" data-autoplay="false" data-arrow="true" data-edge="2" data-dots="false" data-items-xl="3" data-items-lg="2" data-items-sm="1">
-    
+                    
                     <!-- Slider item -->
                     <div class="h-100">
                         <div class="card bg-primary bg-opacity-10 border border-2 border-primary border-dashed border-opacity-75 rounded-3 h-100">
@@ -229,8 +239,8 @@
                             </div>
                         </div>
                     </div>
-    
-                   
+                    
+                    
                     <!-- Slider item -->
                     <div class="h-100">
                         <div class="card bg-info bg-opacity-10 border border-2 border-info border-dashed border-opacity-75 rounded-3 h-100">
@@ -245,8 +255,8 @@
                             </div>
                         </div>
                     </div>
-    
-                  
+                    
+                    
                 </div>
             </div>	
             <!-- Slider END -->
@@ -271,7 +281,7 @@
                         <p class="mb-3 mb-lg-0">Enjoy Fastest Broadband Internet Service in the town!</p>
                     </div>
                     <div class="col-lg-4 text-lg-end">
-                        <a href="flight-list.html" class="btn btn-lg btn-dark mb-0">Register Now!</a>
+                        <a href="{{ route('viewOnlineReg') }}" class="btn btn-lg btn-dark mb-0">Register Now!</a>
                     </div>
                 </div>
             </div>

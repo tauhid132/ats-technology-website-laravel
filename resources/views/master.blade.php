@@ -17,6 +17,17 @@
   <link rel="stylesheet" href="{{ asset('theme/vendor/choices/css/choices.min.css') }}">
   <link rel="stylesheet" href="{{ asset('theme/vendor/flatpickr/css/flatpickr.min.css') }}">
   <link rel="stylesheet" href="{{ asset('theme/css/style.css') }}">
+  <style>
+    .topnav-container{
+      justify-content: center
+    }
+    @media (min-width:500px) {
+      .topnav-container { 
+        justify-content: space-between
+      }
+      
+    }
+  </style>
 </head>
 
 @yield('custom-stylesheet')
