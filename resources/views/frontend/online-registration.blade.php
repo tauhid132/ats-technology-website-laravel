@@ -3,18 +3,24 @@
 @section('main-body')
 
 <main>
+    <section class="py-0">
+        <div class="container">
+            <div class="rounded-3 p-4 p-sm-5" style="background-image: url({{ asset('images/header-bg.png') }}); background-position: center center; background-repeat: no-repeat; background-size: cover;">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="h2 text-white mb-1"><i class="fa fa-user-plus me-2"></i>New Connection Registration</h1>
+                        <p class="text-white"><i class="fa fa-info-circle me-2"></i>Please provide your information. Our Sales Executive will contact you as soon as possible.</p>
+                    </div>
+                </div>
+            </div>	
+        </div>
+    </section>
     <section class="pt-0 pt-lg-5">
         <div class="container">
             <div class="row g-4 g-lg-5 align-items-center">
-                <div class="col-md-12">
-                    <center>
-                    <h3 class="mb-2">New Connection Registration</h3>
-                    <p>Please provide your information. Our Sales Executive will contact you as soon as possible.</p>
-                    </center>
-                </div>
-               
+                
                 <div class="col-lg-12">
-                    <div class="card shadow p-3">
+                    <div class="card shadow p-4">
                         @foreach ($errors->all() as $error)
                         <div class="alert alert-danger alert-dismissible fade show" role="alert">
                             <strong> {{ $error }}</strong>
@@ -46,7 +52,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <label class="form-label text-black">Mobile Number <span class="text-danger">*</span></label>
-                                    <input type="text" class="form-control" name="mobile" minlength="11" maxlength="11" placeholder="Enter Mobile Number" required>
+                                    <input type="text" class="form-control" name="mobile" placeholder="Enter Mobile Number" required>
                                 </div>
                                 <div class="col-md-6">
                                     <label class="form-label text-black">Chosen Package</label>
@@ -72,7 +78,7 @@
                                 </div>
                                 
                                 
-                            </form>
+                          
                         </div>
                         
                     </div>
@@ -80,6 +86,7 @@
                     <div class="col-md-12 text-center mt-3">
                         <button class="btn btn-primary mb-0" type="submit"><i class="fa fa-paper-plane"></i> Submit</button>
                     </div>	
+                </form>
                 </div>
             </div>
         </div>

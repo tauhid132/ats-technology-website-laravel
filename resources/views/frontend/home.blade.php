@@ -9,14 +9,17 @@
             <div class="tiny-slider arrow-round arrow-hover arrow-dark">
                 <div class="tiny-slider-inner rounded-2 shadow" data-autoplay="true" data-arrow="true" data-dots="true" data-items="1" >
                     <div >
-                        <img src="images/bg2.png" class="rounded-3" alt="">
+                        <img src="images/packages.png" class="rounded-3" alt="">
+                    </div>
+                    <div >
+                        <img src="images/gaming.png" class="rounded-3" alt="">
                     </div>
                     <div>
-                        <img src="images/ats2.jpg" class="rounded-3" alt="">
+                        <img src="images/billing.png" class="rounded-3" alt="">
                     </div>
-                    <div>
+                    {{-- <div>
                         <img src="images/bg2.png" class="rounded-3" alt="">
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
@@ -25,7 +28,7 @@
         <div class="container">
             <div class="row mb-4">
                 <div class="col-12 text-center">
-                    <h3 class="mb-0">Why <span class="text-primary">ATS Technology?</span></h3>
+                    <h2 class="mb-0">Why <span class="text-primary"> ATS Internet?</span></h2>
                 </div>
             </div>
             <div class="row g-4 justify-content-center mt-5">
@@ -74,11 +77,11 @@
             </div>
         </div>
     </section>
-    <section class="pt-0 pt-md-5">
+    <section class="pt-0 pt-md-5 mt-4">
         <div class="container">
             <div class="row mb-4">
                 <div class="col-12 text-center">
-                    <h3 class="mb-0">Our <span class="text-success"><i class="fa fa-home"></i> Home </span>Packages</h3>
+                    <h2 class="mb-0">Our Pupular<span class="text-success"> Home </span>Packages</h2>
                 </div>
             </div>
             <div class="row g-4 justify-content-center mt-5">
@@ -109,7 +112,7 @@
                             </ul>
                         </div>
                         <div class="card-footer p-4 pt-0">
-                            <a href="{{ route('viewOnlineReg') }}" class="btn btn-primary w-100 mb-0">Get Now!</a>
+                            <a href="{{ route('viewOnlineReg') }}" class="btn btn-primary w-100 mb-0 rounded-5">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -139,7 +142,7 @@
                             </ul>
                         </div>
                         <div class="card-footer p-4 pt-0">
-                            <a href="{{ route('viewOnlineReg') }}" class="btn btn-primary w-100 mb-0">Get Now!</a>
+                            <a href="{{ route('viewOnlineReg') }}" class="btn btn-primary w-100 mb-0 rounded-5">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -169,7 +172,7 @@
                             </ul>
                         </div>
                         <div class="card-footer p-4 pt-0">
-                            <a href="{{ route('viewOnlineReg') }}" class="btn btn-primary w-100 mb-0">Get Now!</a>
+                            <a href="{{ route('viewOnlineReg') }}" class="btn btn-primary w-100 mb-0 rounded-5">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -199,7 +202,7 @@
                             </ul>
                         </div>
                         <div class="card-footer p-4 pt-0">
-                            <a href="{{ route('viewOnlineReg') }}" class="btn btn-primary w-100 mb-0">Get Now!</a>
+                            <a href="{{ route('viewOnlineReg') }}" class="btn btn-primary w-100 mb-0 rounded-5">Book Now</a>
                         </div>
                     </div>
                 </div>

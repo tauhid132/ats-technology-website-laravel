@@ -4,14 +4,20 @@
 @section('main-body')
 
 <main>
+    <section class="py-0">
+        <div class="container">
+            <div class="rounded-3 p-4 p-sm-5" style="background-image: url({{ asset('images/header-bg.png') }}); background-position: center center; background-repeat: no-repeat; background-size: cover;">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="h2 text-white mb-3">Monthly Home Packages</h1>
+                    </div>
+                </div>
+            </div>	
+        </div>
+    </section>
     <section class="pt-0 pt-md-5">
         <div class="container">
-            <div class="row mb-4">
-                <div class="col-12 text-center">
-                    <h3 class="mb-0">Our Home Packages</h3>
-                </div>
-            </div>
-            <div class="row g-4 justify-content-center mt-5">
+            <div class="row g-4 justify-content-center">
                 <div class="col-md-12">
                     <div class="card shadow">
                         <div class="card-body p-4">

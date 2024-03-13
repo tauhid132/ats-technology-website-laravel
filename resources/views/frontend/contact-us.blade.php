@@ -3,6 +3,17 @@
 @section('main-body')
 
 <main>
+    <section class="py-0">
+        <div class="container">
+            <div class="rounded-3 p-4 p-sm-5" style="background-image: url({{ asset('images/header-bg.png') }}); background-position: center center; background-repeat: no-repeat; background-size: cover;">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="h2 text-white mb-3">Contact Us</h1>
+                    </div>
+                </div>
+            </div>	
+        </div>
+    </section>
     <section class="pt-0 pt-lg-5">
         <div class="container">
             <div class="row g-4 g-lg-5 align-items-center">
