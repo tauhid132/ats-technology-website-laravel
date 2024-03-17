@@ -26,6 +26,10 @@ class PageController extends Controller
     public function viewOnlineReg(){
         return view('frontend.online-registration');
     }
+
+    public function viewSMEInternet(){
+        return view('frontend.sme-plans');
+    }
     // public function mail(){
     //     Mail::to('tauhid132@gmail.com')->send(new NewConnectionMail());
     // }

@@ -41,18 +41,15 @@
                         <a class="nav-link {{ Request::is('home-internet') ? 'active':''  }}" href="{{ route('viewHomeInternet') }}" >Home Internet</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link {{ Request::is('home-internet') ? 'active':''  }}" href="{{ route('viewHomeInternet') }}" >SME</a>
+                        <a class="nav-link {{ Request::is('sme-internet') ? 'active':''  }}" href="{{ route('viewSMEInternet') }}" >SME</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link " href="#" >Coverage</a>
                     </li>
                     
                     <li class="nav-item dropdown">
-                        <a class="nav-link  {{ Request::is('pay-bill') ? 'active':''  }}" href="{{ route('viewPayBill') }}" >Pay Bill</a>
+                        <a class="nav-link  {{ Request::is('pay-bill') ? 'active':''  }}" href="https://selfcare.atsbd.net/quick-pay" >Pay Bill</a>
                     </li>
-                    {{-- <li class="nav-item dropdown">
-                        <a class="nav-link " href="https://vas.atsbd.net" >VAS</a>
-                    </li> --}}
                     <li class="nav-item dropdown">
                         <a class="nav-link {{ Request::is('contact-us') ? 'active':''  }}" href="{{ route('viewContact') }}" >Contact Us</a>
                     </li>

@@ -81,7 +81,7 @@
         <div class="container">
             <div class="row mb-4">
                 <div class="col-12 text-center">
-                    <h2 class="mb-0">Our Pupular<span class="text-success"> Home </span>Packages</h2>
+                    <h2 class="mb-0">Our Popular<span class="text-success"> Home </span>Packages</h2>
                 </div>
             </div>
             <div class="row g-4 justify-content-center mt-5">
@@ -89,7 +89,7 @@
                     <div class="card shadow">
                         <div class="card-header d-flex justify-content-between align-items-center border-bottom p-4">
                             <div>
-                                <h6 class="mb-0 text-primary">Wind</h6>
+                                <h6 class="mb-0 text-primary">Home-10</h6>
                                 <div class="hstack gap-2">
                                     <span class="h3 plan-price mb-0" data-monthly-price="$20" data-annual-price="$570">10 Mbps</span>
                                 </div>
@@ -121,7 +121,7 @@
                     <div class="card shadow">
                         <div class="card-header d-flex justify-content-between align-items-center border-bottom p-4">
                             <div>
-                                <h6 class="mb-0 text-primary">Lightning</h6>
+                                <h6 class="mb-0 text-primary">Home-20</h6>
                                 <div class="hstack gap-2">
                                     <span class="h3 plan-price mb-0" data-monthly-price="$20" data-annual-price="$570">20 Mbps</span>
                                 </div>
@@ -151,7 +151,7 @@
                     <div class="card shadow">
                         <div class="card-header d-flex justify-content-between align-items-center border-bottom p-4">
                             <div>
-                                <h6 class="mb-0 text-primary">Thunder</h6>
+                                <h6 class="mb-0 text-primary">Home-40</h6>
                                 <div class="hstack gap-2">
                                     <span class="h3 plan-price mb-0" data-monthly-price="$20" data-annual-price="$570">40 Mbps</span>
                                 </div>
@@ -181,7 +181,7 @@
                     <div class="card shadow">
                         <div class="card-header d-flex justify-content-between align-items-center border-bottom p-4">
                             <div>
-                                <h6 class="mb-0 text-primary">Storm</h6>
+                                <h6 class="mb-0 text-primary">Home-60</h6>
                                 <div class="hstack gap-2">
                                     <span class="h3 plan-price mb-0" data-monthly-price="$20" data-annual-price="$570">60 Mbps</span>
                                 </div>
