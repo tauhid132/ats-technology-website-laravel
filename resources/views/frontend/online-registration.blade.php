@@ -20,7 +20,7 @@
             <div class="row g-4 g-lg-5 align-items-center">
                 
                 <div class="col-lg-12">
-                    <div class="card shadow p-4">
+                    <div class="card shadow p-4 mb-4">
                         @foreach ($errors->all() as $error)
                         <div class="alert alert-danger alert-dismissible fade show" role="alert">
                             <strong> {{ $error }}</strong>
@@ -52,7 +52,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <label class="form-label text-black">Mobile Number <span class="text-danger">*</span></label>
-                                    <input type="text" class="form-control" name="mobile" placeholder="Enter Mobile Number" required>
+                                    <input type="text" class="form-control" maxlength="11" minlength="11" name="mobile" placeholder="Enter Mobile Number" required>
                                 </div>
                                 <div class="col-md-6">
                                     <label class="form-label text-black">Chosen Package</label>

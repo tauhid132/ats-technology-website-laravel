@@ -112,7 +112,7 @@
                             </ul>
                         </div>
                         <div class="card-footer p-4 pt-0">
-                            <a href="{{ route('viewOnlineReg') }}" class="btn btn-primary w-100 mb-0 rounded-5">Book Now</a>
+                            <a href="{{ route('viewOnlineReg') }}" class="btn btn-primary w-100 mb-0 rounded-5">Register Now</a>
                         </div>
                     </div>
                 </div>
@@ -142,7 +142,7 @@
                             </ul>
                         </div>
                         <div class="card-footer p-4 pt-0">
-                            <a href="{{ route('viewOnlineReg') }}" class="btn btn-primary w-100 mb-0 rounded-5">Book Now</a>
+                            <a href="{{ route('viewOnlineReg') }}" class="btn btn-primary w-100 mb-0 rounded-5">Register Now</a>
                         </div>
                     </div>
                 </div>
@@ -172,7 +172,7 @@
                             </ul>
                         </div>
                         <div class="card-footer p-4 pt-0">
-                            <a href="{{ route('viewOnlineReg') }}" class="btn btn-primary w-100 mb-0 rounded-5">Book Now</a>
+                            <a href="{{ route('viewOnlineReg') }}" class="btn btn-primary w-100 mb-0 rounded-5">Register Now</a>
                         </div>
                     </div>
                 </div>
@@ -202,7 +202,7 @@
                             </ul>
                         </div>
                         <div class="card-footer p-4 pt-0">
-                            <a href="{{ route('viewOnlineReg') }}" class="btn btn-primary w-100 mb-0 rounded-5">Book Now</a>
+                            <a href="{{ route('viewOnlineReg') }}" class="btn btn-primary w-100 mb-0 rounded-5">Register Now</a>
                         </div>
                     </div>
                 </div>

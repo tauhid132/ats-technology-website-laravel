@@ -9,7 +9,7 @@
             <div class="rounded-3 p-4 p-sm-5" style="background-image: url({{ asset('images/header-bg.png') }}); background-position: center center; background-repeat: no-repeat; background-size: cover;">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1 class="h2 text-white mb-3">Our Monthly Home Plans</h1>
+                        <h1 class="h2 text-white mb-3">Our Monthly Plan for Home</h1>
                     </div>
                 </div>
             </div>	

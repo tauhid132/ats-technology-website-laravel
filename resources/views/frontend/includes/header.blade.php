@@ -33,7 +33,7 @@
             </button>
             
             <div class="navbar-collapse collapse" id="navbarCollapse">
-                <ul class="navbar-nav navbar-nav-scroll ms-auto">
+                <ul class="navbar-nav navbar-nav-scroll ms-auto mx-auto">
                     <li class="nav-item dropdown active">
                         <a class="nav-link {{ Request::is('/') ? 'active':''  }}" href="{{ route('home') }}" >Home</a>
                     </li>
@@ -41,21 +41,24 @@
                         <a class="nav-link {{ Request::is('home-internet') ? 'active':''  }}" href="{{ route('viewHomeInternet') }}" >Home Internet</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link {{ Request::is('sme-internet') ? 'active':''  }}" href="{{ route('viewSMEInternet') }}" >SME</a>
+                        <a class="nav-link {{ Request::is('sme-internet') ? 'active':''  }}" href="{{ route('viewSMEInternet') }}" >SME Internet</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link " href="#" >Coverage</a>
                     </li>
                     
                     <li class="nav-item dropdown">
-                        <a class="nav-link  {{ Request::is('pay-bill') ? 'active':''  }}" href="https://selfcare.atsbd.net/quick-pay" >Pay Bill</a>
+                        <a class="nav-link  {{ Request::is('pay-bill') ? 'active':''  }}" href="https://selfcare.atsbd.net/quick-pay" >VAS</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link {{ Request::is('contact-us') ? 'active':''  }}" href="{{ route('viewContact') }}" >Contact Us</a>
                     </li>
                 </ul>
             </div>
-            <a href="https://selfcare.atsbd.net" class="btn btn-primary m-2 rounded-5"><i class="fa fa-user"></i> Selfcare</a>
+            <div class="d-flex gap-1">
+            <a href="https://selfcare.atsbd.net/quick-pay" class="btn btn-success btn-sm  rounded-5"><i class="fa fa-credit-card"></i> Pay Bill</a>
+            <a href="https://selfcare.atsbd.net" class="btn btn-primary btn-sm rounded-5"><i class="fa fa-user"></i> Selfcare</a>
+            </div>
         </div>
     </nav>
 </header>
