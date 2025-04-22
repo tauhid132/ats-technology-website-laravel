@@ -17,17 +17,17 @@
             <h5 class="text-white mb-2 mb-md-4">Company</h5>
             <ul class="nav flex-column text-primary-hover">
               <li class="nav-item"><a class="nav-link text-muted" href="{{ asset('btrc-tarrif-chart.pdf') }}">BTRC Approved Tarrif</a></li>
-              <li class="nav-item"><a class="nav-link text-muted" href="#">Privacy & Policy</a></li>
-              <li class="nav-item"><a class="nav-link text-muted" href="#">Terms & Conditions</a></li>
-              <li class="nav-item"><a class="nav-link text-muted" href="#">Refund Policy</a></li>
+              <li class="nav-item"><a class="nav-link text-muted" href="{{ route('privacyPolicy') }}">Privacy & Policy</a></li>
+              <li class="nav-item"><a class="nav-link text-muted" href="{{ route('termsCondition') }}">Terms & Conditions</a></li>
+              <li class="nav-item"><a class="nav-link text-muted" href="{{ route('returnRefund') }}">Refund Policy</a></li>
             </ul>
           </div>
           <div class="col-6 col-md-4">
             <h5 class="text-white mb-2 mb-md-4">Services</h5>
             <ul class="nav flex-column text-primary-hover">
-              <li class="nav-item"><a class="nav-link text-muted" href="#">Home Internet</a></li>
-              <li class="nav-item"><a class="nav-link text-muted" href="#">SME Internet</a></li>
-              <li class="nav-item"><a class="nav-link text-muted" href="#">Pay Bill</a></li>
+              <li class="nav-item"><a class="nav-link text-muted" href="{{ route('viewHomeInternet') }}">Home Internet</a></li>
+              <li class="nav-item"><a class="nav-link text-muted" href="{{ route('viewSMEInternet') }}">SME Internet</a></li>
+              <li class="nav-item"><a class="nav-link text-muted" href="https://selfcare.atsbd.net/quick-pay">Pay Bill</a></li>
               <li class="nav-item"><a class="nav-link text-muted" href="https://vas.atsbd.net">VAS</a></li>
             </ul>
           </div>

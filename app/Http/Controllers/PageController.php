@@ -44,4 +44,14 @@ class PageController extends Controller
         Mail::to('atstechnologybd@gmail.com')->send(new NewConnectionMail($details));
         return back()->with('success','Registered Successfully! We will contact you as soon as possible.');
     }
+
+    public function privacyPolicy(){
+        return view('frontend.privacy-policy');
+    }
+    public function termsCondition(){
+        return view('frontend.terms-and-conditions');
+    }
+    public function returnRefund(){
+        return view('frontend.return-and-refund');
+    }
 }

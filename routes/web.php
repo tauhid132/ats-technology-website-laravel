@@ -24,3 +24,6 @@ Route::get('/contact-us',[App\Http\Controllers\PageController::class, 'viewConta
 Route::get('/get-new-connection',[App\Http\Controllers\PageController::class, 'viewOnlineReg'])->name('viewOnlineReg');
 Route::post('/get-new-connection',[App\Http\Controllers\PageController::class, 'onlineReg']);
 Route::get('/mail',[App\Http\Controllers\PageController::class, 'mail'])->name('mail');
+Route::get('/privacy-policy',[App\Http\Controllers\PageController::class, 'privacyPolicy'])->name('privacyPolicy');
+Route::get('/terms-and-conditions',[App\Http\Controllers\PageController::class, 'termsCondition'])->name('termsCondition');
+Route::get('/return-and-refund',[App\Http\Controllers\PageController::class, 'returnRefund'])->name('returnRefund');

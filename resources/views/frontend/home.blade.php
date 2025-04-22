@@ -9,13 +9,13 @@
             <div class="tiny-slider arrow-round arrow-hover arrow-dark">
                 <div class="tiny-slider-inner rounded-2 shadow" data-autoplay="true" data-arrow="true" data-dots="true" data-items="1" >
                     <div >
-                        <img src="images/packages.png" class="rounded-3" alt="">
+                        <img src="images/banner_1.png" class="rounded-3" alt="">
                     </div>
                     <div >
-                        <img src="images/gaming.png" class="rounded-3" alt="">
+                        <img src="images/banner_2.png" class="rounded-3" alt="">
                     </div>
                     <div>
-                        <img src="images/billing.png" class="rounded-3" alt="">
+                        <img src="images/gaming.png" class="rounded-3" alt="">
                     </div>
                     {{-- <div>
                         <img src="images/bg2.png" class="rounded-3" alt="">
@@ -89,9 +89,9 @@
                     <div class="card shadow">
                         <div class="card-header d-flex justify-content-between align-items-center border-bottom p-4">
                             <div>
-                                <h6 class="mb-0 text-primary">Home-10</h6>
+                                <h6 class="mb-0 text-primary">Home-15</h6>
                                 <div class="hstack gap-2">
-                                    <span class="h3 plan-price mb-0" data-monthly-price="$20" data-annual-price="$570">10 Mbps</span>
+                                    <span class="h3 plan-price mb-0">15 Mbps</span>
                                 </div>
                             </div>
                         </div>
@@ -105,14 +105,14 @@
                                 <hr>
                                 <li style="margin-left:30px">
                                     <div class="">
-                                        <span class="h4 plan-price mb-0" data-monthly-price="$59" data-annual-price="$840">500</span>
+                                        <span class="h4 plan-price mb-0">500</span>
                                         <span class="h6 fw-light mb-0">Tk/Month</span>
                                     </div>
                                 </li>
                             </ul>
                         </div>
                         <div class="card-footer p-4 pt-0">
-                            <a href="{{ route('viewOnlineReg') }}" class="btn btn-primary w-100 mb-0 rounded-5">Register Now</a>
+                            <a href="{{ route('viewOnlineReg') }}" class="btn btn-primary w-100 mb-0 rounded-5"><i class="fa fa-plus me-2"></i>Register Now</a>
                         </div>
                     </div>
                 </div>
@@ -121,9 +121,9 @@
                     <div class="card shadow">
                         <div class="card-header d-flex justify-content-between align-items-center border-bottom p-4">
                             <div>
-                                <h6 class="mb-0 text-primary">Home-20</h6>
+                                <h6 class="mb-0 text-primary">Home-40</h6>
                                 <div class="hstack gap-2">
-                                    <span class="h3 plan-price mb-0" data-monthly-price="$20" data-annual-price="$570">20 Mbps</span>
+                                    <span class="h3 plan-price mb-0">40 Mbps</span>
                                 </div>
                             </div>
                         </div>
@@ -136,43 +136,13 @@
                                 <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Optical Fiber Connection</li>
                                 <hr>
                                 <li style="margin-left:30px"><div class="">
-                                    <span class="h4 plan-price mb-0" data-monthly-price="$59" data-annual-price="$840">800</span>
+                                    <span class="h4 plan-price mb-0">800</span>
                                     <span class="h6 fw-light mb-0">Tk/Month</span>
                                 </div></li>
                             </ul>
                         </div>
                         <div class="card-footer p-4 pt-0">
-                            <a href="{{ route('viewOnlineReg') }}" class="btn btn-primary w-100 mb-0 rounded-5">Register Now</a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-6 col-lg-3">
-                    <div class="card shadow">
-                        <div class="card-header d-flex justify-content-between align-items-center border-bottom p-4">
-                            <div>
-                                <h6 class="mb-0 text-primary">Home-40</h6>
-                                <div class="hstack gap-2">
-                                    <span class="h3 plan-price mb-0" data-monthly-price="$20" data-annual-price="$570">40 Mbps</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-body p-4">
-                            <ul class="list-unstyled mb-0">
-                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Upto 100 Mbps IX</li>
-                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>4K Streaming</li>
-                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Public/Real IP</li>
-                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>24/7 Support</li>
-                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Optical Fiber Connection</li>
-                                <hr>
-                                <li style="margin-left:30px"><div class="">
-                                    <span class="h4 plan-price mb-0" data-monthly-price="$59" data-annual-price="$840">1000</span>
-                                    <span class="h6 fw-light mb-0">Tk/Month</span>
-                                </div></li>
-                            </ul>
-                        </div>
-                        <div class="card-footer p-4 pt-0">
-                            <a href="{{ route('viewOnlineReg') }}" class="btn btn-primary w-100 mb-0 rounded-5">Register Now</a>
+                            <a href="{{ route('viewOnlineReg') }}" class="btn btn-primary w-100 mb-0 rounded-5"><i class="fa fa-plus me-2"></i>Register Now</a>
                         </div>
                     </div>
                 </div>
@@ -183,7 +153,7 @@
                             <div>
                                 <h6 class="mb-0 text-primary">Home-60</h6>
                                 <div class="hstack gap-2">
-                                    <span class="h3 plan-price mb-0" data-monthly-price="$20" data-annual-price="$570">60 Mbps</span>
+                                    <span class="h3 plan-price mb-0">60 Mbps</span>
                                 </div>
                             </div>
                         </div>
@@ -196,13 +166,43 @@
                                 <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Optical Fiber Connection</li>
                                 <hr>
                                 <li style="margin-left:30px"><div class="">
-                                    <span class="h4 plan-price mb-0" data-monthly-price="$59" data-annual-price="$840">1500</span>
+                                    <span class="h4 plan-price mb-0">1000</span>
                                     <span class="h6 fw-light mb-0">Tk/Month</span>
                                 </div></li>
                             </ul>
                         </div>
                         <div class="card-footer p-4 pt-0">
-                            <a href="{{ route('viewOnlineReg') }}" class="btn btn-primary w-100 mb-0 rounded-5">Register Now</a>
+                            <a href="{{ route('viewOnlineReg') }}" class="btn btn-primary w-100 mb-0 rounded-5"><i class="fa fa-plus me-2"></i>Register Now</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3">
+                    <div class="card shadow">
+                        <div class="card-header d-flex justify-content-between align-items-center border-bottom p-4">
+                            <div>
+                                <h6 class="mb-0 text-primary">Home-80</h6>
+                                <div class="hstack gap-2">
+                                    <span class="h3 plan-price mb-0">80 Mbps</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <ul class="list-unstyled mb-0">
+                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Upto 100 Mbps IX</li>
+                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>4K Streaming</li>
+                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Public/Real IP</li>
+                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>24/7 Support</li>
+                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Optical Fiber Connection</li>
+                                <hr>
+                                <li style="margin-left:30px"><div class="">
+                                    <span class="h4 plan-price mb-0">1500</span>
+                                    <span class="h6 fw-light mb-0">Tk/Month</span>
+                                </div></li>
+                            </ul>
+                        </div>
+                        <div class="card-footer p-4 pt-0">
+                            <a href="{{ route('viewOnlineReg') }}" class="btn btn-primary w-100 mb-0 rounded-5"><i class="fa fa-plus me-2"></i>Register Now</a>
                         </div>
                     </div>
                 </div>
